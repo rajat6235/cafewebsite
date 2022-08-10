@@ -16,8 +16,17 @@
   align-items: center;
 }
 
+.logoName{
+  color:white;
+  font-size:25px;
+  margin-top: 27px;
+  font-family:"Nunito", sans-serif !important;
+
+}
 .app__navbar-logo img {
-  width: 150px;
+  width: 110px;
+  height: 70px;
+  margin-right: -10px;
 }
 
 .app__navbar-links {
