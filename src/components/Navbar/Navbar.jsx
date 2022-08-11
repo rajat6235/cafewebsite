@@ -12,8 +12,7 @@ const Navbar = () => {
       <div className="app__navbar-logo">
         <img src={images.logo1} style={{}} alt="app__logo" />
         <span  className='logoName'>ROBUSTER's </span>
-        <span style={{color:"white",fontSize:"17px",marginTop:" 33px",
-    marginLeft: "6px"}}>Fitness cafe</span>
+        <span className='cafe'>Fitness cafe</span>
       </div>
       <ul className="app__navbar-links">
         <li className="p__opensans"><a href="#home">Home</a></li>
