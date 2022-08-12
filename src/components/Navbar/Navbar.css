@@ -133,6 +133,7 @@
 
   .app__navbar-smallscreen {
       display: flex;
+      margin-top: 25px;
   }
 }
 

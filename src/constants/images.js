@@ -22,6 +22,14 @@ import quote from '../assets/quote.png';
 import gericht from '../assets/gericht.png';
 import logo1 from '../assets/logo1.png';
 import logo2 from '../assets/logo2.png';
+import  headerimg1 from '../assets/headerimg1.jpg'
+import  headerimg2 from '../assets/headerimg2.jpg'
+import  headerimg3 from '../assets/headerimg3.jpg'
+import  headerimg4 from '../assets/headerimg4.jpg'
+import  headerimg5 from '../assets/headerimg5.jpg'
+import  headerimg6 from '../assets/headerimg6.jpg'
+
+
 
 export default {
   bg,
@@ -47,5 +55,11 @@ export default {
   quote,
   gericht,
   logo1,
-  logo2
+  logo2,
+  headerimg1,
+  headerimg2,
+  headerimg3,
+  headerimg4,
+  headerimg5,
+  headerimg6
 };
