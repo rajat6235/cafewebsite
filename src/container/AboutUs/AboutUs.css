@@ -1,21 +1,42 @@
 .app__aboutus {
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+background-color: var(--color-black);
 }
 
 .app__aboutus-overlay {
     position: absolute;
     inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .app__aboutus-overlay img {
-    width: 391px;
-    height: 415px;
+    width: 70rem;
+    height: 40rem;
     z-index: 0;
+    opacity: 0.1;
+ padding-top: 4rem;
+
+}
+.headText{
+    color:#d9a93f ;
+  font-family:"Nunito", sans-serif !important;
+    font-size: 30px;
+    line-height: 71px;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
 }
 
 .app__aboutus-content {
     width: 100%;
     z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .app__aboutus-content_about {
@@ -24,7 +45,6 @@
     justify-content: flex-end;
     align-items: flex-end;
     flex-direction: column;
-
     text-align: right;
 }
 
@@ -33,7 +53,8 @@
 }
 
 .app__aboutus-content_knife img {
-    height: 910px;
+    height: 44rem;
+    display: none;
 }
 
 .app__aboutus-content_history {
@@ -62,6 +83,17 @@
         margin: 4rem 0;
     }
 }
+@media screen and (max-width:   1050px) {
+    .app__aboutus-content_knife img {
+        display: none;
+     }
+     .app__aboutus-overlay img {
+        width: 53rem;
+        height: 51.5rem;
+        padding-top: 4rem;
+    }
+     
+}
 
 @media screen and (max-width: 900px) {
     .app__aboutus-content {
@@ -72,10 +104,46 @@
         margin: 4rem 0;
     }
 }
+@media screen and (max-width: 850px) {
+    .app__aboutus-content_knife img {
+        display: none;
+     }
+     .app__aboutus-overlay img {
+        width: 41rem;
+        height: 33rem;
+        padding-top: 4rem;
+    }
+     
+}
 
 @media screen and (max-width: 650px) {
     .app__aboutus-overlay img {
-        width: 80%;
-        height: 320px;
+        width: 340px;
+        height: 600px;
+        padding-top: 4rem;
     }
+    .app__aboutus-content_knife img {
+       display: none;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .app__aboutus-overlay img {
+        width: 310px;
+        height: 680px;
+        padding-top: 4rem;
+    }
+    .app__aboutus-content_knife img {
+        display: none;
+     }
+}
+@media screen and (max-width: 350px) {
+    .app__aboutus-overlay img {
+        width: 260px;
+        height: 765px;
+        padding-top: 4rem;
+    }
+    .app__aboutus-content_knife img {
+        display: none;
+     }
 }
