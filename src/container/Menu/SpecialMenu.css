@@ -18,7 +18,80 @@
     align-items: flex-start;
     flex-direction: row;
 }
+.orderButtonsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.orderButton{
+    color: white;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
 
+.zomatoIcon{
+    height: 60px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 60px;
+    /* width: 70px; */
+    border-radius: 10px;
+}
+.swiggyIcon{
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 0 3px;
+    background-color: white;
+}
+.ordertext{
+    padding: 0 10px;
+}
+.robIcon{
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+    margin:10px 0 10px 0 ;
+    /* margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 3px;
+    margin-top: 10px; */
+    padding: 10px 10px;
+    background-color: white;
+}
+/* 
+    height: 60px;
+    width: 63px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px 10px;
+    background-color: white; */
+
+    .discount{
+        color: white;
+        padding-left: 10px;
+        font-size: 14px;
+    }
+.orderButtonRob{
+    /* margin-left: 172px; */
+    color: white;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.robContainer{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    left: 50.5px;
+}
 .app__specialMenu-menu_heading {
     font-family: var(--font-base);
     font-weight: 600;
@@ -48,7 +121,7 @@
 .app__specialMenu_menu_items {
     display: flex;
     flex-direction: column;
-
+    color: white;
     margin: 2rem 0;
     width: 100%;
 }

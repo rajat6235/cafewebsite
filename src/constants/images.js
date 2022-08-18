@@ -28,6 +28,8 @@ import  headerimg3 from '../assets/headerimg3.jpg'
 import  headerimg4 from '../assets/headerimg4.jpg'
 import  headerimg5 from '../assets/headerimg5.jpg'
 import  headerimg6 from '../assets/headerimg6.jpg'
+import zomato from '../assets/zomato.svg'
+import  swiggy from '../assets/swiggy.svg'
 
 
 
@@ -61,5 +63,7 @@ export default {
   headerimg3,
   headerimg4,
   headerimg5,
-  headerimg6
+  headerimg6,
+  zomato,
+  swiggy
 };

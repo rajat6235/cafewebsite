@@ -4,23 +4,31 @@ import React from 'react';
 
 import { SubHeading, MenuItem } from '../../components';
 import { data, images } from '../../constants';
+
 import './SpecialMenu.css';
 
 const SpecialMenu = () => (
   <div className="app__specialMenu flex__center section__padding" id="menu">
     <div className="app__specialMenu-title">
       <SubHeading title="Menu that fits your palatte" />
-      <h1 className="headtext__cormorant">Today&apos;s Special</h1> 
+      <h1 className="headtext__cormorant">CAFÉ MENU</h1> 
     </div>
 
     <div className="app__specialMenu-menu">
       <div className="app__specialMenu-menu_wine  flex__center">
-        <p className="app__specialMenu-menu_heading">Wine & Beer</p>
+        <p className="app__specialMenu-menu_heading">HOME DELIVERY</p>
         <div className="app__specialMenu_menu_items">
-          {data.wines.map((wine, index) => (
+          {/* {data.wines.map((wine, index) => (
             <MenuItem key={wine.title + index} title={wine.title} price={wine.price} tags={wine.tags} />
-          ))}
+          ))} */}
+          You can now order your fresh, healthy Gym Junkie takeaway from our website or Glovo and delivered to your door.  Click the button below to see our online delivery menus.
         </div>
+        <div className='orderButtonsContainer'>
+        <a id="button" className='orderButton' href="https://gymjunkiecafe.es/"> <p className='ordertext'>ORDER ON</p> 	&nbsp;<img className='zomatoIcon' src={images.zomato}/></a>
+        <a id="button" className='orderButton' href="https://gymjunkiecafe.es/"> <p className='ordertext'>ORDER ON</p> 	&nbsp;<img className='swiggyIcon' src={images.swiggy}/></a>
+       <div className='robContainer'> <a id="button" className='orderButton' href="https://gymjunkiecafe.es/"><p className='ordertext'>ORDER ON</p>&nbsp;<img className='robIcon' src={images.logo1}/> </a><p className='discount'>(&nbsp;23% off <br/> on online menu)</p></div>
+        </div>
+
       </div>
 
       <div className="app__specialMenu-menu_img">
