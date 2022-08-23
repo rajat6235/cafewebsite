@@ -21,12 +21,12 @@ const SpecialMenu = () => (
           {/* {data.wines.map((wine, index) => (
             <MenuItem key={wine.title + index} title={wine.title} price={wine.price} tags={wine.tags} />
           ))} */}
-          You can now order your fresh, healthy Gym Junkie takeaway from our website or Glovo and delivered to your door.  Click the button below to see our online delivery menus.
+          You can now order your fresh, healthy Robuster's Meal takeaway from our cafe or through swiggy/zomato and get it delivered to your door.  Click the button below to see our online delivery menus.
         </div>
         <div className='orderButtonsContainer'>
         <a id="button" className='orderButton' href="https://gymjunkiecafe.es/"> <p className='ordertext'>ORDER ON</p> 	&nbsp;<img className='zomatoIcon' src={images.zomato}/></a>
         <a id="button" className='orderButton' href="https://gymjunkiecafe.es/"> <p className='ordertext'>ORDER ON</p> 	&nbsp;<img className='swiggyIcon' src={images.swiggy}/></a>
-       <div className='robContainer'> <a id="button" className='orderButton' href="https://gymjunkiecafe.es/"><p className='ordertext'>ORDER ON</p>&nbsp;<img className='robIcon' src={images.logo1}/> </a><p className='discount'>(&nbsp;23% off <br/> on online menu)</p></div>
+       <div className='robContainer'> <a id="button" className='orderButton' href="https://gymjunkiecafe.es/"><p className='ordertext'>ORDER ON</p>&nbsp;<img className='robIcon' src={images.logo1}/> </a><p className='discount'>(&nbsp;23% off on <br/> online menu)</p></div>
         </div>
 
       </div>

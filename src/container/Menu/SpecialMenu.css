@@ -90,7 +90,7 @@
     position: relative;
     flex-direction: row;
     align-items: center;
-    left: 50.5px;
+    left: 40.5px;
 }
 .app__specialMenu-menu_heading {
     font-family: var(--font-base);
@@ -151,6 +151,12 @@
 @media screen and (max-width: 650px) {
     .app__specialMenu-menu_img {
         width: 100%;
+    }
+    .robContainer{
+        left: 36.5px;
+    }
+    .discount{
+        font-size: 12px;
     }
 
     .app__specialMenu-menu_heading {
