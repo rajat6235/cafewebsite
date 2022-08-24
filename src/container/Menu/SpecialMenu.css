@@ -18,6 +18,9 @@
     align-items: flex-start;
     flex-direction: row;
 }
+.takeAway{
+    padding: 0px 40px;
+}
 .orderButtonsContainer{
     display: flex;
     flex-direction: column;
@@ -92,6 +95,10 @@
     align-items: center;
     left: 40.5px;
 }
+.fa-whatsapp{
+    color: green;
+    padding: 0 8px;
+}
 .app__specialMenu-menu_heading {
     font-family: var(--font-base);
     font-weight: 600;
@@ -100,7 +107,34 @@
     letter-spacing: 0.04em;
     color: var(--color-white);
 }
+.takeawaymenu__button{
+    background-color: rgb(166,84,41);
+    color: var(--color-black);
+    font-family: var(--font-base);
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    line-height: 30px;
+    font-size: 16px;
+    padding: 0.5rem 1.5rem;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 20px;
+}
 
+.takeawaymenu__button:hover{
+    background-color: #d9a93f;
+}
+.PhoneNum{
+    text-decoration: underline;
+    font-weight: bold;
+    padding: 8px;
+}
+.PhoneNum:hover{
+    color: rgb(166,84,41);
+
+}
 .app__specialMenu-menu_wine,
 .app__specialMenu-menu_cocktails {
     flex: 1;
@@ -124,6 +158,7 @@
     color: white;
     margin: 2rem 0;
     width: 100%;
+    text-align: center;
 }
 
 @media screen and (min-width: 2000px) {
@@ -136,11 +171,14 @@
     }
 }
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1000px) {
     .app__specialMenu-menu {
         flex-direction: column;
         align-items: center;
         width: 100%;
+    }
+    .takeAway{
+        padding: 70px 0px;
     }
 
     .app__specialMenu-menu_img {
@@ -160,7 +198,7 @@
     }
 
     .app__specialMenu-menu_heading {
-        font-size: 35px;
+        font-size: 29.5px;
         line-height: 48.5px;
     }
 }

@@ -163,7 +163,7 @@
 
 @media screen and (max-width: 450px) {
   .p__opensans {
-    font-size: 12px;
+    font-size: 16px;
   }
 
   .p__cormorant {
@@ -173,5 +173,10 @@
   .headtext__cormorant {
     font-size: 45px;
     line-height: 70px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .p__opensans {
+    font-size: 14px;
   }
 }
