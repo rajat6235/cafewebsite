@@ -93,7 +93,7 @@
 }
 .barcodeIcon{
     width: 180px;
-    padding-bottom: 47.5px;
+    padding-bottom: 75.8px;
 }
 
 .robContainer{
@@ -137,7 +137,7 @@
 .PhoneNum{
     text-decoration: underline;
     font-weight: bold;
-    padding: 8px;
+    padding: 12.5px;
 }
 .PhoneNum:hover{
     color: rgb(166,84,41);
@@ -195,6 +195,12 @@
 }
 
 @media screen and (max-width: 650px) {
+    .PhoneNum{
+        padding: 8px;
+    }
+    .barcodeIcon{
+    padding-bottom: 47.5px;
+    }
     .app__specialMenu-menu_img {
         width: 100%;
     }

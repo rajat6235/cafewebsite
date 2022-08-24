@@ -59,23 +59,28 @@ const cocktails = [
 const awards = [
   {
     imgUrl: images.award02,
-    title: 'Bib Gourmond',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: 'Detox Diets',
+    subtitle: 'Detox juices and smoothies',
   },
   {
     imgUrl: images.award01,
-    title: 'Rising Star',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: 'Lean Protein Meals',
+    subtitle: 'High quality whey protein shakes',
   },
   {
     imgUrl: images.award05,
-    title: 'AA Hospitality',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: 'Meal Packages',
+    subtitle: 'Grilled lean steaks and skewers',
   },
   {
     imgUrl: images.award03,
-    title: 'Outstanding Chef',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: 'Smoothies',
+    subtitle: 'High Protein Egg smoothies with delicious flavour and gainers smoothies',
+  },
+  {
+    imgUrl: images.award03,
+    title: 'Catering',
+    subtitle: 'Catering small events and functions',
   },
 ];
 
