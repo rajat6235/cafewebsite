@@ -30,6 +30,7 @@ import  headerimg5 from '../assets/headerimg5.jpg'
 import  headerimg6 from '../assets/headerimg6.jpg'
 import zomato from '../assets/zomato.svg'
 import  swiggy from '../assets/swiggy.svg'
+import barcode from '../assets/barcode.png'
 
 
 
@@ -65,5 +66,6 @@ export default {
   headerimg5,
   headerimg6,
   zomato,
-  swiggy
+  swiggy,
+  barcode
 };

@@ -87,6 +87,14 @@
     align-items: center;
     white-space: nowrap;
 }
+.barcodeContainer{
+    display: flex;
+    align-items: center;
+}
+.barcodeIcon{
+    width: 180px;
+    padding-bottom: 47.5px;
+}
 
 .robContainer{
     display: flex;
