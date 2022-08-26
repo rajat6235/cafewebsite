@@ -3,7 +3,10 @@ import React from 'react';
 import { SubHeading } from '../../components';
 import { images } from '../../constants';
 
-const FindUs = () => (
+const FindUs = () => 
+
+{
+  return(
   <div className="app__bg app__wrapper section__padding" id="contact">
     <div className="app__wrapper_info">
       <SubHeading title="Contact" />
@@ -14,13 +17,15 @@ const FindUs = () => (
         <p className="p__opensans">Mon - Sat: 10:00 am - 10:00 am</p>
         <p className="p__opensans">Sunday Closed </p>
       </div>
-      <button type="button" className="custom__button" style={{ marginTop: '2rem' }}>Visit Us</button>
+      <a href="https://goo.gl/maps/FsnTfR6jX6GHcrN56">  <button type="button" className="custom__button" style={{ marginTop: '2rem' }}>View on maps</button>
+     </a>
+
     </div>
 
     <div className="app__wrapper_img">
-      <img src={images.findus} alt="finus_img" />
+    <img src={images.findus} alt="finus_img" />
     </div>
   </div>
-);
+);}
 
 export default FindUs;

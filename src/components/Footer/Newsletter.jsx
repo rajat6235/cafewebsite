@@ -7,13 +7,14 @@ import './Newsletter.css';
 const Newsletter = () => (
   <div className="app__newsletter">
     <div className="app__newsletter-heading">
-      <SubHeading title="Newsletter" />
-      <h1 className="headtext__cormorant">Subscribe To Our Newsletter</h1>
-      <p className="p__opensans">And never miss latest Updates!</p>
+      <SubHeading title="Contact Us" />
+      <h1 className="headtext__cormorant newsletterText">Leave Your Precious Feedback</h1>
+      {/* <p className="p__opensans">And never miss latest Updates!</p> */}
     </div>
+    <input type="email" placeholder="Enter your email address" className='email' />
     <div className="app__newsletter-input flex__center">
-      <input type="email" placeholder="Enter your email address" />
-      <button type="button" className="custom__button">Subscribe</button>
+      <textarea type="text" placeholder="Type your message here" />
+      <button type="button" className="custom__button">Send</button>
     </div>
   </div>
 );

@@ -79,7 +79,7 @@ const SpecialMenu = () => (
           or Whatsapp us on{" "}
           <a href="tel:9888861517" className="PhoneNum">
             {" "}
-            <i class="fa fa-whatsapp fa-lg"></i>9888861517{" "}
+            <i className="fa fa-whatsapp fa-lg"></i>9888861517{" "}
           </a>
         </div>
         <div className="orderButtonsContainer">

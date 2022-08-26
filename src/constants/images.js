@@ -31,6 +31,12 @@ import  headerimg6 from '../assets/headerimg6.jpg'
 import zomato from '../assets/zomato.svg'
 import  swiggy from '../assets/swiggy.svg'
 import barcode from '../assets/barcode.png'
+import insta1 from '../assets/insta1.jpg'
+import insta2 from '../assets/insta2.jpg'
+import insta3 from '../assets/insta3.jpg'
+import insta4 from '../assets/insta4.jpg'
+import insta5 from '../assets/insta5.jpg'
+
 
 
 
@@ -67,5 +73,10 @@ export default {
   headerimg6,
   zomato,
   swiggy,
-  barcode
+  barcode,
+  insta1,
+  insta2,
+  insta3,
+  insta4,
+  insta5
 };

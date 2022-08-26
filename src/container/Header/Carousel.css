@@ -32,7 +32,7 @@
     right: 0;
   }
   .heroImages{
-    height: calc(40vh - 20px);
+    height: calc(45vh - 10px);
     width:  calc(100vw - 70px);
   }
   .carousel-indicators {
@@ -57,7 +57,7 @@
   }
   @media screen and (max-width: 650px) {
     .heroImages{
-      height: calc(40vh - 20px);
+      height: calc(45vh - 10px);
       width:  calc(100vw - 50px);
     }
   }
