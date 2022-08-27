@@ -15,7 +15,7 @@ const FindUs = () =>
         <p className="p__opensans">Booth no. 121 (Behind City Medicos) Phase -9, Mohali Punjab </p>
         <p className="p__cormorant" style={{ color: '#DCCA87', margin: '2rem 0' }}>Opening Hours</p>
         <p className="p__opensans">Mon - Sat: 10:00 am - 10:00 am</p>
-        <p className="p__opensans">Sunday Closed </p>
+        <p className="p__opensans">Sunday:Closed </p>
       </div>
       <a href="https://goo.gl/maps/FsnTfR6jX6GHcrN56">  <button type="button" className="custom__button" style={{ position: 'relative',top:"65px" }}>View on maps</button>
      </a>
