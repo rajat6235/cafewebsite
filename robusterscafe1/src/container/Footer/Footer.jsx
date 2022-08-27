@@ -39,7 +39,8 @@ const Footer = () => (
     </div>
 
     <div className="footer__copyright">
-      <p className="p__opensans">2022. All Rights reserved.</p>
+      <p className="p__opensans">  Designed & Developed by Rajat Gupta
+  <i className="fa-solid fa-hand-peace" ></i></p>
     </div>
 
   </div>

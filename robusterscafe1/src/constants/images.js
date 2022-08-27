@@ -36,6 +36,8 @@ import insta2 from '../assets/insta2.jpg'
 import insta3 from '../assets/insta3.jpg'
 import insta4 from '../assets/insta4.jpg'
 import insta5 from '../assets/insta5.jpg'
+import load2 from '../assets/load2.gif'
+
 
 
 
@@ -78,5 +80,6 @@ export default {
   insta2,
   insta3,
   insta4,
-  insta5
+  insta5,
+  load2
 };
