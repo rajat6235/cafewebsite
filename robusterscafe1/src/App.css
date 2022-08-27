@@ -1,6 +1,6 @@
 .section__padding {
   padding: 4rem 6rem;
-  margin-right: -1px;
+  margin-right: -2px;
 }
 
 .flex__center {
@@ -60,7 +60,7 @@
     font-weight: 700;
     letter-spacing: 0.04em;
     line-height: 28px;
-    font-size: 16px;
+    font-size: 18px;
     padding: 0.5rem 1.5rem;
     border-radius: 1px;
     border: none;

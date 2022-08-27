@@ -1,6 +1,7 @@
 .container{
     background-color: var(--color-black);
     padding: 25px;
+    margin-right: -1px;
 }
 .app__header {
     background-color: var(--color-black);

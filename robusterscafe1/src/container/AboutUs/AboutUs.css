@@ -24,7 +24,6 @@ background-color: var(--color-black);
 }
 .headText{
     color:#d9a93f ;
-  font-family:"Nunito", sans-serif !important;
     font-size: 30px;
     line-height: 71px;
     letter-spacing: 0.04em;

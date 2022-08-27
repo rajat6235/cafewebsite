@@ -1,12 +1,10 @@
-
-
 .app__navbar {
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background: var(--color-black);
-
+  margin-right: -1px;
   padding: 1rem 2rem;
 }
 
@@ -16,19 +14,19 @@
   align-items: center;
 }
 
-.logoName{
-  color:white;
-  font-size:25px;
+.logoName {
+  color: white;
+  font-size: 25px;
   margin-top: 27px;
-  font-family:"Nunito", sans-serif !important;
+  font-weight: 900;
+  font-family: "Exo 2", sans-serif !important;
 }
-.cafe{
-  color:white;
-  font-size:16px;
+.cafe {
+  color: white;
+  font-size: 16px;
   margin-top: 33px;
-    margin-left: 6px;
-  font-family:"Nunito", sans-serif !important;
-
+  margin-left: 6px;
+  font-family: "Exo 2", sans-serif !important;
 }
 .app__navbar-logo img {
   width: 110px;
@@ -40,7 +38,7 @@
 .app__navbar-links {
   flex: 1;
   display: flex;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
   margin-top: 30px;
   list-style: none;
@@ -64,7 +62,7 @@
 .app__navbar-login a {
   margin: 0 1rem;
   text-decoration: none;
-  transition: .5s ease;
+  transition: 0.5s ease;
 }
 
 .app__navbar-login a:hover {
@@ -88,7 +86,7 @@
   width: 100%;
   height: 100vh;
   background: var(--color-black);
-  transition: .5s ease;
+  transition: 0.5s ease;
 
   flex-direction: column;
   z-index: 5;
@@ -123,37 +121,37 @@
 
 @media screen and (min-width: 2000px) {
   .app__navbar-logo img {
-      width: 210px;
+    width: 210px;
   }
 }
 
 @media screen and (max-width: 1150px) {
   .app__navbar-links {
-      display: none;
+    display: none;
   }
 
   .app__navbar-smallscreen {
-      display: flex;
-      margin-top: 25px;
+    display: flex;
+    margin-top: 25px;
   }
 }
 
 @media screen and (max-width: 650px) {
   .app__navbar {
-      padding: 1rem;
+    padding: 1rem;
   }
-  .logoName{
+  .logoName {
     font-size: 5.5vw;
   }
-  .cafe{
+  .cafe {
     font-size: 4vw;
   }
 
   .app__navbar-login {
-      display: none;
+    display: none;
   }
 
   .app__navbar-logo img {
-      width: 21vw;
+    width: 21vw;
   }
 }

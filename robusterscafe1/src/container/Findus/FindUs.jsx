@@ -17,7 +17,7 @@ const FindUs = () =>
         <p className="p__opensans">Mon - Sat: 10:00 am - 10:00 am</p>
         <p className="p__opensans">Sunday Closed </p>
       </div>
-      <a href="https://goo.gl/maps/FsnTfR6jX6GHcrN56">  <button type="button" className="custom__button" style={{ marginTop: '2rem' }}>View on maps</button>
+      <a href="https://goo.gl/maps/FsnTfR6jX6GHcrN56">  <button type="button" className="custom__button" style={{ position: 'relative',top:"65px" }}>View on maps</button>
      </a>
 
     </div>

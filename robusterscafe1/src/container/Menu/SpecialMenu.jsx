@@ -27,7 +27,7 @@ const SpecialMenu = () => (
           <a
             id="button"
             className="orderButton"
-            href="https://gymjunkiecafe.es/"
+            href="https://www.zomato.com/chandigarh/robusters-phase-9-mohali"
           >
             {" "}
             <p className="ordertext">ORDER ON</p> &nbsp;
@@ -36,7 +36,7 @@ const SpecialMenu = () => (
           <a
             id="button"
             className="orderButton"
-            href="https://gymjunkiecafe.es/"
+            href="https://www.swiggy.com/restaurants/robusters-phase-9-south-mohali-chandigarh-86768"
           >
             {" "}
             <p className="ordertext">ORDER ON</p> &nbsp;
@@ -47,7 +47,7 @@ const SpecialMenu = () => (
             <a
               id="button"
               className="orderButton"
-              href="https://gymjunkiecafe.es/"
+              href="tel:9888861516"
             >
               <p className="ordertext">ORDER ON</p>&nbsp;
               <img className="robIcon" src={images.logo1} />{" "}

@@ -63,7 +63,7 @@ const Newsletter = () => {
       <i className="fa fa-paper-plane" />
                 {bool ? (
                   <b className="load">
-                    <img src={images.load2} alt="not responding" /> ;
+                    <img src={images.load2} alt="not responding" /> 
                   </b>
                 ) : (
                   ""

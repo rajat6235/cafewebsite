@@ -23,9 +23,8 @@ const Footer = () => (
         <p className="p__opensans">&quot;No Junk only healthy punk.&quot;</p>
         <img src={images.spoon} className="spoon__img" style={{ marginTop: 15 }} />
         <div className="app__footer-links_icons">
-          <FiFacebook />
-          <FiTwitter />
-          <FiInstagram />
+         <a href='https://www.facebook.com/robustersfitnesscafe'><FiFacebook /></a>
+          <a href='https://www.instagram.com/robustersfitnesscafe'><FiInstagram /></a>
         </div>
       </div>
 
@@ -39,7 +38,7 @@ const Footer = () => (
     </div>
 
     <div className="footer__copyright">
-      <p className="p__opensans">  Designed & Developed by Rajat Gupta
+      <p className="p__opensans">  @Designed & Developed by Rajat Gupta
   <i className="fa-solid fa-hand-peace" ></i></p>
     </div>
 

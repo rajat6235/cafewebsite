@@ -22,7 +22,7 @@
     font-family: var(--font-base);
     color: var(--color-white);
     margin-right: 2rem;
-    margin-left: 1vw;
+    margin-left: 1.3vw;
     padding: 0.75rem 1rem;
     background: var(--color-black);
 }.email{
@@ -36,6 +36,10 @@
     margin-top: 25px;
     padding: 0.75rem 1rem;
     background: var(--color-black);
+}
+button .load img{
+    width: 60px;
+    color: green
 }
 
 
