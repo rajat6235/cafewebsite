@@ -33,7 +33,7 @@ router.post("/contact", (req, res) => {
     try {
       if (error)
         return res.status(400).json({ msg: "Please fill all the fields",error });
-      res.status(200).json({ msg: "Thank you for contacting me" });
+      res.status(200).json({ msg: "Thank you for contacting us" });
     } catch (error) {
       if (error)
         return res.status(500).json({ msg: "There is a server error" });
