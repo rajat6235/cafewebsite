@@ -14,7 +14,7 @@
   align-items: center;
 }
 
-.logoName {
+/* .logoName {
   color: white;
   font-size: 25px;
   margin-top: 27px;
@@ -27,6 +27,13 @@
   margin-top: 31px;
   margin-left: 6px;
   font-family: "Exo 2", sans-serif !important;
+} */
+
+.cafeName{
+  position: relative;
+  left: 13px;
+  top: 13px;
+  width: 14vw !important;
 }
 .app__navbar-logo img {
   width: 110px;
@@ -145,6 +152,9 @@
   }
   .cafe {
     font-size: 4vw;
+  }
+  .cafeName{
+    width: 50vw !important;
   }
 
   .app__navbar-login {

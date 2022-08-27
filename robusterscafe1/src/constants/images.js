@@ -28,6 +28,8 @@ import insta3 from '../assets/insta3.jpg'
 import insta4 from '../assets/insta4.jpg'
 import insta5 from '../assets/insta5.jpg'
 import load2 from '../assets/load2.gif'
+import cafename from '../assets/cafename.png';
+
 
 
 
@@ -63,5 +65,7 @@ export default {
   insta3,
   insta4,
   insta5,
-  load2
+  load2,
+  cafename
+
 };

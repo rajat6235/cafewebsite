@@ -18,7 +18,8 @@ Robuster's Fitness Cafe is a health food restaurant that dishes up clean and hea
 The combination of a motivational atmosphere and unique menus are designed to help you easily reach your fitness goals. Over the years, Robuster's has gained tremendous popularity amongst fitness enthusiasts, families, bodybuilders, athletes, or anybody looking to reach or maintain a healthy lifestyle. Robuster's makes sure to keep your "Fit Life - Made Easy".</p>
         {/* <button type="button" className="custom__button">Know More</button> */}
       </div>
-
+      <div className="app__aboutus-content_knife flex__center"> 
+      </div>
       <div className="app__aboutus-content_history">
         <h1 className="headText">Our Mission</h1>
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />
