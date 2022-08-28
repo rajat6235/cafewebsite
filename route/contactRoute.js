@@ -3,11 +3,11 @@ const nodemailer = require("nodemailer");
 
 router.post("/contact", (req, res) => {
   let data = req.body;
-  if (
-    data.email.length === 0 ||
-    data.message.length === 0
-  ) {
-    return res.json({ msg: "please fill all the fields" });
+  if (data.email.length === 0 || data.message.length === 0) {
+    return res.json({ msg: "Please fill all the fields" });
+  }
+  if (!/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(data.email)) {
+    return res.json({ msg: "Please enter a valid email address" });
   }
 
   let smtpTransporter = nodemailer.createTransport({
@@ -32,7 +32,9 @@ router.post("/contact", (req, res) => {
   smtpTransporter.sendMail(mailOptions, (error) => {
     try {
       if (error)
-        return res.status(400).json({ msg: "Please fill all the fields",error });
+        return res
+          .status(400)
+          .json({ msg: "Please fill all the fields", error });
       res.status(200).json({ msg: "Thank you for contacting us" });
     } catch (error) {
       if (error)
