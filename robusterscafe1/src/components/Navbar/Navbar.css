@@ -14,33 +14,24 @@
   align-items: center;
 }
 
-/* .logoName {
-  color: white;
-  font-size: 25px;
-  margin-top: 27px;
-  font-weight: 900;
-  font-family: "Exo 2", sans-serif !important;
-}
-.cafe {
-  color: white;
-  font-size: 16px;
-  margin-top: 31px;
-  margin-left: 6px;
-  font-family: "Exo 2", sans-serif !important;
-} */
-
 .cafeName{
   position: relative;
   left: 13px;
   top: 13px;
-  width: 14vw !important;
+  width: 12.5vw !important;
 }
-.app__navbar-logo img {
-  width: 110px;
-  height: 70px;
+.cafeLogo{
+  width: 80px;
+  height: 50px;
   margin-right: -10px;
   opacity: 0.8;
 }
+/* .app__navbar-logo img {
+  width: 80px;
+  height: 50px;
+  margin-right: -10px;
+  opacity: 0.8;
+} */
 
 .app__navbar-links {
   flex: 1;
@@ -141,27 +132,30 @@
     display: flex;
     margin-top: 25px;
   }
+  .cafeLogo{
+    height: 7.5vh;
+    width: 15vw;
+  }
+    .cafeName{
+      width: 30vw !important;
+      height: 6.5vh;
+    }
 }
 
 @media screen and (max-width: 650px) {
   .app__navbar {
     padding: 1rem;
   }
-  .logoName {
-    font-size: 5.5vw;
-  }
-  .cafe {
-    font-size: 4vw;
-  }
+.cafeLogo{
+  height: 7.5vh;
+  width: 20vw;
+}
   .cafeName{
-    width: 50vw !important;
+    width: 40vw !important;
+    height: 7.5vh;
   }
 
   .app__navbar-login {
     display: none;
-  }
-
-  .app__navbar-logo img {
-    width: 21vw;
   }
 }
