@@ -1,5 +1,4 @@
 import React, { useEffect, useRef, useState } from "react";
-import CarouselItem from "./CarouselItem";
 import {FaChevronLeft, FaChevronRight} from "react-icons/fa"
 import "./Carousel.css";
 export default function Carousel({ slides }) {
@@ -53,8 +52,9 @@ export default function Carousel({ slides }) {
             onMouseEnter={stopSlideTimer}
             onMouseLeave={startSlideTimer}
             onTouchStart={stopSlideTimer}
+            key={slide}
           >
-            <img  className="heroImages" src={slide} />
+            <img  className="heroImages" src={slide} alt="" />
           </div>
         ))}
       </div>
@@ -67,6 +67,7 @@ export default function Carousel({ slides }) {
             }`}
             onClick={() => switchIndex(index)}
             onMouseEnter={stopSlideTimer}
+            key={_.index}
           ></button>
         ))}
       </div>
