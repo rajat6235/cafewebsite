@@ -22,7 +22,7 @@
     font-family: var(--font-base);
     color: var(--color-white);
     margin-right: 2rem;
-    margin-left: 1.3vw;
+    margin-left: 1.6vw;
     padding: 0.75rem 1rem;
     background: var(--color-black);
 }.email{
@@ -46,7 +46,12 @@ button .load img{
 .app__newsletter-input button {
     width: max-content;
 }
-
+.sendButton{
+    width: 110px;
+}
+.plane{
+    padding-left: 6px;
+}
 @media screen and (min-width: 2000px) {
     .app__newsletter-input textarea {
         font-size: 2rem;
