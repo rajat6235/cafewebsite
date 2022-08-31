@@ -16,13 +16,12 @@ const SpecialMenu = () => (
       <div className="app__specialMenu-menu_wine  flex__center">
         <p className="app__specialMenu-menu_heading">HOME DELIVERY</p>
         <div className="app__specialMenu_menu_items">
-          {/* {data.wines.map((wine, index) => (
-            <MenuItem key={wine.title + index} title={wine.title} price={wine.price} tags={wine.tags} />
-          ))} */}
           You can now order your fresh, healthy Robuster's Meal takeaway from
           our cafe or through swiggy/zomato and get it delivered to your door.
           Click the button below to see our online delivery menus.
         </div>
+        <p className="ordertext">ORDER ON </p>&nbsp;
+
         <div className="orderButtonsContainer">
           <a
             id="button"
@@ -30,7 +29,7 @@ const SpecialMenu = () => (
             href="https://www.zomato.com/chandigarh/robusters-phase-9-mohali"
           >
             {" "}
-            <p className="ordertext">ORDER ON</p> &nbsp;
+            {/* <p className="ordertext">ORDER ON</p> &nbsp; */}
             <img className="zomatoIcon" src={images.zomato} />
           </a>
           <a
@@ -39,7 +38,7 @@ const SpecialMenu = () => (
             href="https://www.swiggy.com/restaurants/robusters-phase-9-south-mohali-chandigarh-86768"
           >
             {" "}
-            <p className="ordertext">ORDER ON</p> &nbsp;
+            {/* <p className="ordertext">ORDER ON</p> &nbsp; */}
             <img className="swiggyIcon" src={images.swiggy} />
           </a>
           <div className="robContainer">
@@ -49,7 +48,7 @@ const SpecialMenu = () => (
               className="orderButton"
               href="tel:9888861516"
             >
-              <p className="ordertext">ORDER ON</p>&nbsp;
+              {/* <p className="ordertext">ORDER ON</p>&nbsp; */}
               <img className="robIcon" src={images.logo1} />{" "}
             </a>
             <p className="discount">

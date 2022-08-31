@@ -53,27 +53,17 @@
 }
 .ordertext{
     padding: 0 10px;
+    color: white;
 }
 .robIcon{
     height: 60px;
     width: 60px;
     border-radius: 10px;
     margin:10px 0 10px 0 ;
-    /* margin-bottom: 10px;
-    margin-right: 10px;
-    margin-left: 3px;
-    margin-top: 10px; */
     padding: 10px 10px;
     background-color: white;
 }
-/* 
-    height: 60px;
-    width: 63px;
-    border-radius: 10px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    padding: 10px 10px;
-    background-color: white; */
+
 
     .discount{
         color: white;
@@ -81,7 +71,6 @@
         font-size: 14px;
     }
 .orderButtonRob{
-    /* margin-left: 172px; */
     color: white;
     display: flex;
     align-items: center;
