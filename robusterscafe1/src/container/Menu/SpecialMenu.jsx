@@ -1,7 +1,7 @@
 import React from "react";
 
-import { SubHeading, MenuItem } from "../../components";
-import { data, images } from "../../constants";
+import { SubHeading } from "../../components";
+import { images } from "../../constants";
 
 import "./SpecialMenu.css";
 
@@ -30,7 +30,7 @@ const SpecialMenu = () => (
           >
             {" "}
             {/* <p className="ordertext">ORDER ON</p> &nbsp; */}
-            <img className="zomatoIcon" src={images.zomato} />
+            <img className="zomatoIcon" src={images.zomato} alt='' />
           </a>
           <a
             id="button"
@@ -39,7 +39,7 @@ const SpecialMenu = () => (
           >
             {" "}
             {/* <p className="ordertext">ORDER ON</p> &nbsp; */}
-            <img className="swiggyIcon" src={images.swiggy} />
+            <img className="swiggyIcon" src={images.swiggy} alt=""/>
           </a>
           <div className="robContainer">
             {" "}
@@ -49,7 +49,7 @@ const SpecialMenu = () => (
               href="tel:9888861516"
             >
               {/* <p className="ordertext">ORDER ON</p>&nbsp; */}
-              <img className="robIcon" src={images.logo1} />{" "}
+              <img className="robIcon" src={images.logo1} alt='' />{" "}
             </a>
             <p className="discount">
               (&nbsp;23% off on <br /> online menu)
@@ -94,7 +94,7 @@ const SpecialMenu = () => (
       <div className="app__specialMenu-menu_cocktails  flex__center">
         <p className="app__specialMenu-menu_heading">ONLINE MENU</p>
         <div className="app__specialMenu_menu_items barcodeContainer">
-          <img className="barcodeIcon" src={images.barcode} />
+          <img className="barcodeIcon" src={images.barcode} alt='' />
           <div className="orderButtonsContainer">
           <button type="button" className="takeawaymenu__button">
             View Online Menu
