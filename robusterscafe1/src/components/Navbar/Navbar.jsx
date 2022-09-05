@@ -15,7 +15,7 @@ const Navbar = () => {
       </div>
       <ul className="app__navbar-links">
         <li className="p__opensans">
-          <a href="#home">Home</a>
+          <a href="">Home</a>
         </li>
         <li className="p__opensans">
           <Link
@@ -82,29 +82,57 @@ const Navbar = () => {
             />
             <ul className="app__navbar-smallscreen_links">
               <li>
-                <a href="#home" onClick={() => setToggleMenu(false)}>
+                <a href="" onClick={() => setToggleMenu(false)}>
                   Home
                 </a>
               </li>
               <li>
-                <a href="#about" onClick={() => setToggleMenu(false)}>
+                <Link
+                  activeClass="active"
+                  to="about"
+                  spy={true}
+                  smooth={true}
+                  duration={50}
+                  onClick={() => setToggleMenu(false)}
+                >
                   About
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#menu" onClick={() => setToggleMenu(false)}>
+                <Link
+                  activeClass="active"
+                  to="menu"
+                  spy={true}
+                  smooth={true}
+                  duration={50}
+                  onClick={() => setToggleMenu(false)}
+                >
                   Menu
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#gallery" onClick={() => setToggleMenu(false)}>
+                <Link
+                  activeClass="active"
+                  to="gallery"
+                  spy={true}
+                  smooth={true}
+                  duration={100}
+                  onClick={() => setToggleMenu(false)}
+                >
                   Gallery
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#contact" onClick={() => setToggleMenu(false)}>
-                  Contact
-                </a>
+                <Link
+                  activeClass="active"
+                  to="contact"
+                  spy={true}
+                  smooth={true}
+                  duration={100}
+                  onClick={() => setToggleMenu(false)}
+                >
+                  Contact Us
+                </Link>
               </li>
             </ul>
           </div>
