@@ -5,6 +5,7 @@ import { Navbar } from './components';
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import './App.css';
+import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
 const App = () => (
   <div>
@@ -18,6 +19,7 @@ const App = () => (
     <Gallery />
     <FindUs />
     <Footer />
+    <ScrollToTop/>
   </div>
 );
 
